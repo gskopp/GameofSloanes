@@ -70,7 +70,7 @@ This project is licensed under the terms of the Creative Commons Attribution 4.0
 <tr><td>3</td><td>8</td><td>0.50000000</td><td>0.48795004</td><td>AUTO</td><td><a href="Packings/3x8_AUTO.txt">File</a></td><td>&#9633;</td></tr>
 <tr><td>3</td><td>9</td><td>0.50000000</td><td>0.50000000</td><td>etf</td><td><a href="Packings/3x9_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>3</td><td>10</td><td>0.57735027</td><td>0.57735027</td><td>AUTO</td><td><a href="Packings/3x10_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>3</td><td>11</td><td>0.57735027</td><td>0.57735027</td><td>AUTO</td><td><a href="Packings/3x11_AUTO.txt">File</a></td><td></td></tr>
+<tr><td>3</td><td>11</td><td>0.57735027</td><td>0.57735027</td><td>AUTO</td><td><a href="Packings/3x11_AUTO.txt">File</a></td><td>&#9633;</td></tr>
 <tr><td>3</td><td>12</td><td>0.57735027</td><td>0.57735027</td><td>orth</td><td><a href="Packings/3x12_orth.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>3</td><td>13</td><td>0.62214387</td><td>0.59160798</td><td>dgm</td><td><a href="Packings/3x13_dgm.txt">File</a></td><td></td></tr>
 <tr><td>3</td><td>14</td><td>0.63763053</td><td>0.60302269</td><td>JJ</td><td><a href="Packings/3x14_JJ.txt">File</a></td><td></td></tr>
@@ -122,7 +122,7 @@ This project is licensed under the terms of the Creative Commons Attribution 4.0
 <tr><td>4</td><td>16</td><td>0.44721360</td><td>0.44721360</td><td>etf</td><td><a href="Packings/4x16_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>4</td><td>17</td><td>0.50000000</td><td>0.50000000</td><td>AUTO</td><td><a href="Packings/4x17_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>4</td><td>18</td><td>0.50000000</td><td>0.50000000</td><td>AUTO</td><td><a href="Packings/4x18_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>4</td><td>19</td><td>0.50000000</td><td>0.50000000</td><td>AUTO</td><td><a href="Packings/4x19_AUTO.txt">File</a></td><td></td></tr>
+<tr><td>4</td><td>19</td><td>0.50000000</td><td>0.50000000</td><td>AUTO</td><td><a href="Packings/4x19_AUTO.txt">File</a></td><td>&#9633;</td></tr>
 <tr><td>4</td><td>20</td><td>0.50000000</td><td>0.50000000</td><td>orth</td><td><a href="Packings/4x20_orth.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>4</td><td>21</td><td>0.53721579</td><td>0.50874702</td><td>hlc</td><td><a href="Packings/4x21_hlc.txt">File</a></td><td></td></tr>
 <tr><td>4</td><td>22</td><td>0.54543820</td><td>0.51639778</td><td>hlc</td><td><a href="Packings/4x22_hlc.txt">File</a></td><td></td></tr>
@@ -176,7 +176,7 @@ This project is licensed under the terms of the Creative Commons Attribution 4.0
 <tr><td>5</td><td>26</td><td>0.44721360</td><td>0.44721360</td><td>AUTO</td><td><a href="Packings/5x26_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>27</td><td>0.44721360</td><td>0.44721360</td><td>AUTO</td><td><a href="Packings/5x27_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>28</td><td>0.44721360</td><td>0.44721360</td><td>AUTO</td><td><a href="Packings/5x28_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>5</td><td>29</td><td>0.44721360</td><td>0.44721360</td><td>AUTO</td><td><a href="Packings/5x29_AUTO.txt">File</a></td><td></td></tr>
+<tr><td>5</td><td>29</td><td>0.44721360</td><td>0.44721360</td><td>AUTO</td><td><a href="Packings/5x29_AUTO.txt">File</a></td><td>&#9633;</td></tr>
 <tr><td>5</td><td>30</td><td>0.44721360</td><td>0.44721360</td><td>orth</td><td><a href="Packings/5x30_orth.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>5</td><td>31</td><td>0.48159575</td><td>0.45291081</td><td>hlc</td><td><a href="Packings/5x31_hlc.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>32</td><td>0.48688165</td><td>0.45812285</td><td>hlc</td><td><a href="Packings/5x32_hlc.txt">File</a></td><td></td></tr>
