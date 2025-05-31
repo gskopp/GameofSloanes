@@ -13,7 +13,7 @@ $$\mu\left(\Phi\right) = \max_{1\leq  j < k\leq n} \vert\langle \varphi_j, \varp
 We call $`\Phi`$ a <i>Grassmannian frame</i> or <i>(optimal) projective packing</i> if\
 $$\Phi \in \text{argmin}\lbrace \mu(\Psi) \text{ } : \text{ }  \Psi \text{ } n \text{ unit norm vectors in }C^d \rbrace.$$<br>
 
-For a review of results about complex Grassmannian frames, see the paper <a href="#JKM19">[JKM19]</a>.<br></p>
+For a review of results about complex Grassmannian frames, see the paper [JKM19].<br></p>
 
 <h3>Submissions</h3>
 <p>If you have a collection of $n$ vectors in $C^d$ which has a better coherence (to at least the eighth decimal point) than what is listed above, we welcome you to submit it.  We will accept sporadic packings for $d$ and $n$ not listed above if there is evidence that the packing is truly optimal. <br>
@@ -24,7 +24,7 @@ Please make a branch of the repository and put the new packings in the Packings 
 <h3>Open Problems</h3>
 <p>
 <ul>
-<li><b>Conjecture</b>: The frames of $8$ vectors in $C^3$ that result from removing a single vector from any of the known equiangular tight frames of $9$ vectors in $C^3$ are Grassmannian frames.</br><b>Sources</b>: <a href="#JKM19">[JKM19]</a><br>(independently conjectured by Henry Cohn)</li>
+<li><b>Conjecture</b>: The frames of $8$ vectors in $C^3$ that result from removing a single vector from any of the known equiangular tight frames of $9$ vectors in $C^3$ are Grassmannian frames.</br><b>Sources</b>: [JKM19]<br>(independently conjectured by Henry Cohn)</li>
 <li><b>Conjecture</b>: Assume that an equiangular tight frame of $d^2$ vectors in $C^d$ exists. Then removing one vector from that equiangular tight frame results in a Grassmannian frame of $d^2-1$ vectors in $C^d$.</br><b>Source</b>: Conjectured by Henry Cohn.</li>
 <li><b>Conjecture</b>: Assume that a projective $2$-design of $n$ vectors in $C^d$ exists. Then removing one vector from that projective $2$-design results in a Grassmannian frame of $n-1$ vectors in $C^d$.</br><b>Source</b>: Extension of the above conjecture by Emily J. King.</li>
 <li><b>Conjecture</b>: The following is a Grassmannian frame of $5$ vectors in $C^3$:
@@ -32,9 +32,9 @@ Please make a branch of the repository and put the new packings in the Packings 
   $$\left(\matrix{ a & b & b & c & c \cr b & a & b & c w & cw^2 \cr b & b & a & cw^2 & cw}\right),$$
 <br>
 $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-a^2}{2}}, \quad c = \frac{1}{\sqrt{3}},\quad w=e^{2\pi i/3}.$$
-<b>Source</b>: <a id="JKM19">[JKM19]</a></li>
-<li><b>Conjecture</b>: The configuration of $85$ vectors in $C^5$ listed numerically in the leader board and explicitly constructed as the union of the root vectors corresponding to the $45$ $2$-reflections which generate the unitary reflection group $W(K_5)$ and $40$ vectors representing each antipodal pair of minimal vectors of the Coxeter-Todd lattice $O_{10}$ is a Grassmannian frame.</br><b>Source</b>: <a href="#BGM+19">[BGM+19]</a></li>
-<li><b>Open Problem</b>: Generalize the Levenstein and Bukh-Cox bounds to general subspace packings.</br><b>Source</b>: <a href="#JKM19">[JKM19]</a></li>
+<b>Source</b>: [JKM19]</li>
+<li><b>Conjecture</b>: The configuration of $85$ vectors in $C^5$ listed numerically in the leader board and explicitly constructed as the union of the root vectors corresponding to the $45$ $2$-reflections which generate the unitary reflection group $W(K_5)$ and $40$ vectors representing each antipodal pair of minimal vectors of the Coxeter-Todd lattice $O_{10}$ is a Grassmannian frame.</br><b>Source</b>: [BGM+22]</li>
+<li><b>Open Problem</b>: Generalize the Levenstein and Bukh-Cox bounds to general subspace packings.</br><b>Source</b>: [JKM19]</li>
 </ul>
 </p>
 
@@ -49,8 +49,8 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
           <li> <b>Lower Bound</b> gives the maximum of whichever of the Bukh-Cox, Welch-Rankin, orthoplex, and/or Levenstein bounds are valid and largest for that $d$ and $n$.</li>
           <li> <b>Creator</b> gives a 3&ndash;4 character string indicating the creator of the packing.
             <ul>
-              <li> etf: A known equiangular tight frame.  See, e.g., <a href="#FM16">[FM16]</a> and the references therein.</li>
-              <li> orth: The maximal known set of vectors in $`C^d`$ which saturate the orthoplex bound.  When $`d`$ is a prime power, this collection is a maximal set of mutually unbiased bases consisting of $`d^2 + d`$ vectors.  See, e.g., <a href="#KlRo04">[KlRo04]</a> and the reference therein.</li>
+              <li> etf: A known equiangular tight frame.  See, e.g., [FM16] and the references therein.</li>
+              <li> orth: The maximal known set of vectors in $`C^d`$ which saturate the orthoplex bound.  When $`d`$ is a prime power, this collection is a maximal set of mutually unbiased bases consisting of $`d^2 + d`$ vectors.  See, e.g., [KlRo04] and the reference therein.</li>
               <li> Lev: A set of vectors which saturate the (second) Levenstein bound.</li>
               <li> B-C: A set of vectors which saturate the Bukh-Cox bound.</li>
               <li> AUTO: Removing a vector from the best known packing for $d$ and $n+1$ results in a better coherence than any of the submitted packings for $d$ and $n$.</li>
@@ -58,8 +58,8 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
               <li> dgm, ejk, and JJ: Dustin G. Mixon, Emily J. King, and John Jasper.</li>
               <li> hlc: Henry Cohn.</li>
               <li> gKmR: Gene Kopp and Michael Ren.</li>
-              <li> BGM+22: From the paper <a href="#BGM+22">[BGM+22]</a>.</li>
-              <li> CID+21: From the paper <a href="#CID+21">[CID+21]</a>. (Has since been knocked off the leader board.)</li>
+              <li> BGM+22: From the paper [BGM+22].</li>
+              <li> CID+21: From the paper [CID+21]. (Has since been knocked off the leader board.)</li>
             </ul>
           </li>
           <li> <b>Text File</b> contains a link to a .txt file with the best submitted packing formated as a newline-separated list of the $2 d n$ entries of the vectors, starting with the real parts of the first vector, then the real parts of the second vector, and so on until the imaginary parts of the last vector.</li>
@@ -70,7 +70,7 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
               <li> When pertinent, a reference to a paper or website is listed.</li>
             </ul>
           </li>
-          <li>For a listing of numerically approximated and explicitly defined optimal packings when $n=d^2$, see, e.g., <a href="#FSDH">[FSDH]</a>, <a href="#Grassl">[Grassl]</a>, and <a href="#Flamm">[Flamm]</a>.</li>
+          <li>For a listing of numerically approximated and explicitly defined optimal packings when $n=d^2$, see, e.g., [FSDH], [Grassl], and [Flamm].</li>
         </ul>
 </p>
 
@@ -383,22 +383,22 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 <h3>Papers</h3>
 <h4>Review Paper</h4>
 <p>
-<id="JKM19">[JKM19]</id> John Jasper, Emily J. King, and Dustin G. Mixon: &ldquo;Game of Sloanes: Best known packings in complex projective space.&rdquo; <i>Wavelets and Sparsity XVIII</i>, <i>SPIE Proceedings</i> 11138, 416&ndash;425 <a href="http://arxiv.org/abs/1907.07848">[arXiv]</a></br>
+[JKM19] John Jasper, Emily J. King, and Dustin G. Mixon: &ldquo;Game of Sloanes: Best known packings in complex projective space.&rdquo; <i>Wavelets and Sparsity XVIII</i>, <i>SPIE Proceedings</i> 11138, 416&ndash;425 <a href="http://arxiv.org/abs/1907.07848">[arXiv]</a></br>
 </p>
 <h4>Further Literature and Websites</h4>
 <p>
-<a name="BGM+22">[BGM+22]</a> Dmitriy Bilyk, Alexey Glazyrin, Ryan Matzke, Josiah Park, and Oleksandr Vlasiuk: &ldquo;Optimal measures for $p$-frame energies on spheres.&rdquo; <i>Rev. Mat. Iberoam.</i> 38(4), 1129&ndash;1160 (2022)</br>
-<a name="CID+21">[CID+21]</a> Diego Cuevas, Carlos Beltr&aacute;n, Ignacio Santamaria, V&iacute;t Tu&#269;ek, and Gunnar Peters: &ldquo;A Fast Algorithm for Designing Grassmannian Constellations.&rdquo; (2021) <a href="https://gtas.unican.es/files/pub/non_coherent_wsa21_full_paper.pdf">https://gtas.unican.es/files/pub/non_coherent_wsa21_full_paper.pdf</a>, <i>Conference: WSA 2021 - 25th International ITG Workshop on Smart Antennas</i></i></br>
-<a name="FM16">[FM16]</a> Matt Fickus and Dustin G. Mixon: &ldquo;Tables of the existence of equiangular tight frames.&rdquo; (2016) <a href="http://arxiv.org/abs/1504.00253">[arXiv]</a></br>
-<a name="Flamm">[Flamm]</a> Steve Flammia: &ldquo;Exact SIC fiducial vectors.&rdquo; <a href="http://www.physics.usyd.edu.au/~sflammia/SIC/">http://www.physics.usyd.edu.au/~sflammia/SIC/</a></br>
-<a name="FSDH">[FSDH]</a> Christopher Fuchs, Blake Stacey, John DeBrota, and Michael Hoang: &ldquo;QBism: Quantum Theory as a Hero's Handbook: SIC-POVM Solutions.&rdquo; <a href="http://www.physics.umb.edu/Research/QBism/solutions.html">http://www.physics.umb.edu/Research/QBism/solutions.html</a></br>
-<a name="Grassl">[Grassl]</a> Markus Grassl and Andrew J. Scott: &ldquo;SIC-POVMs&rdquo; <a href="http://sicpovm.markus-grassl.de/">http://sicpovm.markus-grassl.de/</a></br>
-<a name="KlRo04">[KlRo04]</a> Andreas Klappenecker and Martin R&ouml;tteler: &ldquo;Constructions of mutually unbiased bases.&rdquo; (2004) in <i>Finite fields and applications</i>, <i>Lecture Notes in Comput. Sci.</i> 2948, 137&ndash;144, Springer, Berlin. <a href="https://arxiv.org/abs/quant-ph/0309120">[arXiv]</a></br>
-<a name="MeDa14a">[MeDa14a]</a> Ahmed Medra and Timothy N. Davidson: &ldquo;Flexible codebook design for limited feedback systems via sequential smooth optimization on the Grassmannian manifold.&rdquo; <i>IEEE Trans. Signal Process.</i> 62(5), 1305&ndash;1318 (2014)</br>
-<a name="MeDa14b">[MeDa14b]</a> Ahmed Medra and Timothy N. Davidson: &ldquo;Flexible codebook design for limited feedback systems.&rdquo; <a href="http://www.ece.mcmaster.ca/~davidson/pubs/Flexible_codebook_design.html">http://www.ece.mcmaster.ca/~davidson/pubs/Flexible_codebook_design.html</a></br>
-<a name="Sloane1">[Sloane1]</a> Neil J. A. Sloane: &ldquo;Spherical codes.&rdquo; <a href="http://neilsloane.com/packings/">http://neilsloane.com/packings/</a></br>
-<a name="Sloane2">[Sloane2]</a> Neil J. A. Sloane: &ldquo;How to pack lines, planes, $3$-spaces, etc.&rdquo; <a href="http://neilsloane.com/grass/">http://neilsloane.com/grass/</a></br>
-<a name="TDHS05">[TDHS05]</a> Joel A. Tropp, Inderjit S. Dhillon, Robert W. Heath, Jr., and Thomas Strohmer: &ldquo;Designing structured tight frames via alternating projection.&rdquo; <i>IEEE Trans. Info. Theory</i> 51(1), 188&ndash;209 (2005)
+[BGM+22] Dmitriy Bilyk, Alexey Glazyrin, Ryan Matzke, Josiah Park, and Oleksandr Vlasiuk: &ldquo;Optimal measures for $p$-frame energies on spheres.&rdquo; <i>Rev. Mat. Iberoam.</i> 38(4), 1129&ndash;1160 (2022)</br>
+[CID+21] Diego Cuevas, Carlos Beltr&aacute;n, Ignacio Santamaria, V&iacute;t Tu&#269;ek, and Gunnar Peters: &ldquo;A Fast Algorithm for Designing Grassmannian Constellations.&rdquo; (2021) <a href="https://gtas.unican.es/files/pub/non_coherent_wsa21_full_paper.pdf">https://gtas.unican.es/files/pub/non_coherent_wsa21_full_paper.pdf</a>, <i>Conference: WSA 2021 - 25th International ITG Workshop on Smart Antennas</i></i></br>
+[FM16] Matt Fickus and Dustin G. Mixon: &ldquo;Tables of the existence of equiangular tight frames.&rdquo; (2016) <a href="http://arxiv.org/abs/1504.00253">[arXiv]</a></br>
+[Flamm] Steve Flammia: &ldquo;Exact SIC fiducial vectors.&rdquo; <a href="http://www.physics.usyd.edu.au/~sflammia/SIC/">http://www.physics.usyd.edu.au/~sflammia/SIC/</a></br>
+[FSDH] Christopher Fuchs, Blake Stacey, John DeBrota, and Michael Hoang: &ldquo;QBism: Quantum Theory as a Hero's Handbook: SIC-POVM Solutions.&rdquo; <a href="http://www.physics.umb.edu/Research/QBism/solutions.html">http://www.physics.umb.edu/Research/QBism/solutions.html</a></br>
+[Grassl] Markus Grassl and Andrew J. Scott: &ldquo;SIC-POVMs&rdquo; <a href="http://sicpovm.markus-grassl.de/">http://sicpovm.markus-grassl.de/</a></br>
+[KlRo04] Andreas Klappenecker and Martin R&ouml;tteler: &ldquo;Constructions of mutually unbiased bases.&rdquo; (2004) in <i>Finite fields and applications</i>, <i>Lecture Notes in Comput. Sci.</i> 2948, 137&ndash;144, Springer, Berlin. <a href="https://arxiv.org/abs/quant-ph/0309120">[arXiv]</a></br>
+[MeDa14a] Ahmed Medra and Timothy N. Davidson: &ldquo;Flexible codebook design for limited feedback systems via sequential smooth optimization on the Grassmannian manifold.&rdquo; <i>IEEE Trans. Signal Process.</i> 62(5), 1305&ndash;1318 (2014)</br>
+[MeDa14b] Ahmed Medra and Timothy N. Davidson: &ldquo;Flexible codebook design for limited feedback systems.&rdquo; <a href="http://www.ece.mcmaster.ca/~davidson/pubs/Flexible_codebook_design.html">http://www.ece.mcmaster.ca/~davidson/pubs/Flexible_codebook_design.html</a></br>
+[Sloane1] Neil J. A. Sloane: &ldquo;Spherical codes.&rdquo; <a href="http://neilsloane.com/packings/">http://neilsloane.com/packings/</a></br>
+[Sloane2] Neil J. A. Sloane: &ldquo;How to pack lines, planes, $3$-spaces, etc.&rdquo; <a href="http://neilsloane.com/grass/">http://neilsloane.com/grass/</a></br>
+[TDHS05] Joel A. Tropp, Inderjit S. Dhillon, Robert W. Heath, Jr., and Thomas Strohmer: &ldquo;Designing structured tight frames via alternating projection.&rdquo; <i>IEEE Trans. Info. Theory</i> 51(1), 188&ndash;209 (2005)
 </p>
 
 
