@@ -26,7 +26,7 @@ Please make a branch of the repository and put the new packings in the Packings 
 <ul>
 <li><b>Conjecture</b>: The frames of $8$ vectors in $C^3$ that result from removing a single vector from any of the known equiangular tight frames of $9$ vectors in $C^3$ are Grassmannian frames.</br><b>Sources</b>: [JKM19]<br>(independently conjectured by Henry Cohn)</li>
 <li><b>Conjecture</b>: Assume that an equiangular tight frame of $d^2$ vectors in $C^d$ exists. Then removing one vector from that equiangular tight frame results in a Grassmannian frame of $d^2-1$ vectors in $C^d$.</br><b>Source</b>: Conjectured by Henry Cohn.</li>
-<li><b>Conjecture</b>: Assume that a projective $2$-design of $n$ vectors in $C^d$ exists. Then removing one vector from that projective $2$-design results in a Grassmannian frame of $n-1$ vectors in $C^d$.</br><b>Source</b>: Extension of the above conjecture by Emily J. King.</li>
+<li><b>Conjecture</b>: Assume that a projective $2$-design of $n$ vectors in $C^d$ exists. Then removing one vector from that projective $2$-design results in a Grassmannian frame of $n-1$ vectors in $C^d$. This is already known to be true for $d+1$ mutually unbiased bases in $C^d$ due to saturation of the orthoplex bound.</br><b>Source</b>: Extension of the above conjecture by Emily J. King.</li>
 <li><b>Conjecture</b>: The following is a Grassmannian frame of $5$ vectors in $C^3$:
   
   $$\left(\matrix{ a & b & b & c & c \cr b & a & b & c w & cw^2 \cr b & b & a & cw^2 & cw}\right),$$
