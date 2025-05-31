@@ -6,6 +6,8 @@ function saveText( F, init )
 % INPUTS:
 % F : a matrix with unit-norm columns
 % init : initials of the creator of the packing
+%
+% Emily J. King
 
 [d n]=size(F);
 
