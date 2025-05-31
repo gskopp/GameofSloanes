@@ -74,6 +74,9 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 </p>
 
 
+
+<!--Start table-->
+
 <div class="table-responsive my-table">
   <table class="table">
     <thead>
@@ -137,10 +140,10 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 <tr><td>3</td><td>5</td><td>0.43425855</td><td>0.41406779</td><td>dgm</td><td><a href="Packings/3x5_dgm.txt">File</a></td><td></td></tr>
 <tr><td>3</td><td>6</td><td>0.44721360</td><td>0.44721360</td><td>etf</td><td><a href="Packings/3x6_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>3</td><td>7</td><td>0.47140452</td><td>0.47140452</td><td>etf</td><td><a href="Packings/3x7_etf.txt">File</a></td><td>&#9675;</td></tr>
-<tr><td>3</td><td>8</td><td>0.50000000</td><td>0.48795004</td><td>AUTO</td><td><a href="Packings/3x8_AUTO.txt">File</a></td><td>&#9633;</td></tr>
+<tr><td>3</td><td>8</td><td>0.50000000</td><td>0.48795004</td><td>AUTO</td><td><a href="Packings/3x8_AUTO.txt">File</a></td><td>&#9651;</td></tr>
 <tr><td>3</td><td>9</td><td>0.50000000</td><td>0.50000000</td><td>etf</td><td><a href="Packings/3x9_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>3</td><td>10</td><td>0.57735027</td><td>0.57735027</td><td>AUTO</td><td><a href="Packings/3x10_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>3</td><td>11</td><td>0.57735027</td><td>0.57735027</td><td>AUTO</td><td><a href="Packings/3x11_AUTO.txt">File</a></td><td>&#9633;</td></tr>
+<tr><td>3</td><td>11</td><td>0.57735027</td><td>0.57735027</td><td>AUTO</td><td><a href="Packings/3x11_AUTO.txt">File</a></td><td>&#9651;</td></tr>
 <tr><td>3</td><td>12</td><td>0.57735027</td><td>0.57735027</td><td>orth</td><td><a href="Packings/3x12_orth.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>3</td><td>13</td><td>0.62214387</td><td>0.59160798</td><td>dgm</td><td><a href="Packings/3x13_dgm.txt">File</a></td><td></td></tr>
 <tr><td>3</td><td>14</td><td>0.63763053</td><td>0.60302269</td><td>JJ</td><td><a href="Packings/3x14_JJ.txt">File</a></td><td></td></tr>
@@ -188,11 +191,11 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 <tr><td>4</td><td>12</td><td>0.42774232</td><td>0.42640143</td><td>JJ</td><td><a href="Packings/4x12_JJ.txt">File</a></td><td></td></tr>
 <tr><td>4</td><td>13</td><td>0.43301270</td><td>0.43301270</td><td>etf</td><td><a href="Packings/4x13_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>4</td><td>14</td><td>0.44721360</td><td>0.43852901</td><td>AUTO</td><td><a href="Packings/4x14_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>4</td><td>15</td><td>0.44721360</td><td>0.44320263</td><td>AUTO</td><td><a href="Packings/4x15_AUTO.txt">File</a></td><td>&#9633;</td></tr>
+<tr><td>4</td><td>15</td><td>0.44721360</td><td>0.44320263</td><td>AUTO</td><td><a href="Packings/4x15_AUTO.txt">File</a></td><td>&#9651;</td></tr>
 <tr><td>4</td><td>16</td><td>0.44721360</td><td>0.44721360</td><td>etf</td><td><a href="Packings/4x16_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>4</td><td>17</td><td>0.50000000</td><td>0.50000000</td><td>AUTO</td><td><a href="Packings/4x17_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>4</td><td>18</td><td>0.50000000</td><td>0.50000000</td><td>AUTO</td><td><a href="Packings/4x18_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>4</td><td>19</td><td>0.50000000</td><td>0.50000000</td><td>AUTO</td><td><a href="Packings/4x19_AUTO.txt">File</a></td><td>&#9633;</td></tr>
+<tr><td>4</td><td>19</td><td>0.50000000</td><td>0.50000000</td><td>AUTO</td><td><a href="Packings/4x19_AUTO.txt">File</a></td><td>&#9651;</td></tr>
 <tr><td>4</td><td>20</td><td>0.50000000</td><td>0.50000000</td><td>orth</td><td><a href="Packings/4x20_orth.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>4</td><td>21</td><td>0.53721579</td><td>0.50874702</td><td>hlc</td><td><a href="Packings/4x21_hlc.txt">File</a></td><td></td></tr>
 <tr><td>4</td><td>22</td><td>0.54543820</td><td>0.51639778</td><td>hlc</td><td><a href="Packings/4x22_hlc.txt">File</a></td><td></td></tr>
@@ -241,12 +244,12 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 <tr><td>5</td><td>21</td><td>0.40000000</td><td>0.40000000</td><td>etf</td><td><a href="Packings/5x21_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>5</td><td>22</td><td>0.40824829</td><td>0.40237391</td><td>AUTO</td><td><a href="Packings/5x22_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>23</td><td>0.40824829</td><td>0.40451992</td><td>AUTO</td><td><a href="Packings/5x23_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>5</td><td>24</td><td>0.40824829</td><td>0.40646942</td><td>AUTO</td><td><a href="Packings/5x24_AUTO.txt">File</a></td><td>&#9633;</td></tr>
+<tr><td>5</td><td>24</td><td>0.40824829</td><td>0.40646942</td><td>AUTO</td><td><a href="Packings/5x24_AUTO.txt">File</a></td><td>&#9651;</td></tr>
 <tr><td>5</td><td>25</td><td>0.40824829</td><td>0.40824829</td><td>etf</td><td><a href="Packings/5x25_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>5</td><td>26</td><td>0.44721360</td><td>0.44721360</td><td>AUTO</td><td><a href="Packings/5x26_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>27</td><td>0.44721360</td><td>0.44721360</td><td>AUTO</td><td><a href="Packings/5x27_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>28</td><td>0.44721360</td><td>0.44721360</td><td>AUTO</td><td><a href="Packings/5x28_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>5</td><td>29</td><td>0.44721360</td><td>0.44721360</td><td>AUTO</td><td><a href="Packings/5x29_AUTO.txt">File</a></td><td>&#9633;</td></tr>
+<tr><td>5</td><td>29</td><td>0.44721360</td><td>0.44721360</td><td>AUTO</td><td><a href="Packings/5x29_AUTO.txt">File</a></td><td>&#9651;</td></tr>
 <tr><td>5</td><td>30</td><td>0.44721360</td><td>0.44721360</td><td>orth</td><td><a href="Packings/5x30_orth.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>5</td><td>31</td><td>0.48159575</td><td>0.45291081</td><td>hlc</td><td><a href="Packings/5x31_hlc.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>32</td><td>0.48688165</td><td>0.45812285</td><td>hlc</td><td><a href="Packings/5x32_hlc.txt">File</a></td><td></td></tr>
@@ -268,7 +271,7 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 <tr><td>5</td><td>48</td><td>0.54098230</td><td>0.50578054</td><td>hlc</td><td><a href="Packings/5x48_hlc.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>49</td><td>0.54351100</td><td>0.50751922</td><td>hlc</td><td><a href="Packings/5x49_hlc.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>50</td><td>0.56191071</td><td>0.50917508</td><td>JJ</td><td><a href="Packings/5x50_JJ.txt">File</a></td><td></td></tr>
-<tr><td>5</td><td>85</td><td>0.57735027</td><td>0.54006172</td><td>BGMP</td><td><a href="Packings/5x85_BGMP.txt">File</a></td><td>&#9633;[BGM+22]</td></tr>
+<tr><td>5</td><td>85</td><td>0.57735027</td><td>0.54006172</td><td>BGMP</td><td><a href="Packings/5x85_BGMP.txt">File</a></td><td>&#9651;[BGM+22]</td></tr>
 <tr><td>6</td><td>8</td><td>0.22400924</td><td>0.22400924</td><td>B-C</td><td><a href="Packings/6x8_B-C.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>6</td><td>9</td><td>0.25000000</td><td>0.25000000</td><td>etf</td><td><a href="Packings/6x9_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>6</td><td>10</td><td>0.27220315</td><td>0.27216553</td><td>hlc</td><td><a href="Packings/6x10_hlc.txt">File</a></td><td></td></tr>
@@ -296,7 +299,7 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 <tr><td>6</td><td>32</td><td>0.37796447</td><td>0.37387825</td><td>AUTO</td><td><a href="Packings/6x32_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>6</td><td>33</td><td>0.37796447</td><td>0.37500000</td><td>AUTO</td><td><a href="Packings/6x33_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>6</td><td>34</td><td>0.37796447</td><td>0.37605072</td><td>AUTO</td><td><a href="Packings/6x34_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>6</td><td>35</td><td>0.37796447</td><td>0.37703695</td><td>AUTO</td><td><a href="Packings/6x35_AUTO.txt">File</a></td><td>&#9633;</td></tr>
+<tr><td>6</td><td>35</td><td>0.37796447</td><td>0.37703695</td><td>AUTO</td><td><a href="Packings/6x35_AUTO.txt">File</a></td><td>&#9651;</td></tr>
 <tr><td>6</td><td>36</td><td>0.37796447</td><td>0.37796447</td><td>etf</td><td><a href="Packings/6x36_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>6</td><td>37</td><td>0.40824829</td><td>0.40824829</td><td>orth</td><td><a href="Packings/6x37_orth.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>6</td><td>38</td><td>0.41684076</td><td>0.40824829</td><td>hlc</td><td><a href="Packings/6x38_hlc.txt">File</a></td><td></td></tr>
@@ -350,7 +353,7 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 <tr><td>7</td><td>45</td><td>0.35355339</td><td>0.35125009</td><td>AUTO</td><td><a href="Packings/7x45_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>7</td><td>46</td><td>0.35355339</td><td>0.35186578</td><td>AUTO</td><td><a href="Packings/7x46_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>7</td><td>47</td><td>0.35355339</td><td>0.35245369</td><td>AUTO</td><td><a href="Packings/7x47_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>7</td><td>48</td><td>0.35355339</td><td>0.35301567</td><td>AUTO</td><td><a href="Packings/7x48_AUTO.txt">File</a></td><td>&#9633;</td></tr>
+<tr><td>7</td><td>48</td><td>0.35355339</td><td>0.35301567</td><td>AUTO</td><td><a href="Packings/7x48_AUTO.txt">File</a></td><td>&#9651;</td></tr>
 <tr><td>7</td><td>49</td><td>0.35355339</td><td>0.35355339</td><td>etf</td><td><a href="Packings/7x49_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>8</td><td>15</td><td>0.25000000</td><td>0.25000000</td><td>etf</td><td><a href="Packings/8x15_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>8</td><td>57</td><td>0.33071891</td><td>0.33071891</td><td>etf</td><td><a href="Packings/8x57_etf.txt">File</a></td><td>&#9675;</td></tr>
@@ -374,7 +377,11 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
     </tbody>
   </table>
 </div>
-<div><p>Last updated: 2025-05-30.</p></div>
+<div><p>Last updated: 2025-05-31.</p></div>
+
+
+
+<!--End table-->
 
 
 <h3>Code</h3>
