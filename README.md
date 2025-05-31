@@ -1,8 +1,79 @@
 # Game of Sloanes
-A game to find putatively optimal packings in complex projective space with the goal of proving optimality of as many packings as possible.
-Formerly hosted <a href="https://www.math.colostate.edu/~king/GameofSloanes.html">here.</a>
+<p>A game to find putatively optimal packings in complex projective space with the goal of proving optimality of as many packings as possible.
+Formerly hosted <a href="https://www.math.colostate.edu/~king/GameofSloanes.html">here.</a><br>
 
 This project is licensed under the terms of the Creative Commons Attribution 4.0.
+Please cite Game of Sloanes; https://github.com/gnikylime/GameofSloanes/; Authors: John Jasper, Emily J. King, and Dustin G. Mixon<br>
+
+This repository concerns the problem of packing $`n`$ lines, represented by unit vectors, through the origin of $`C^d`$ such that the angles between the lines are as large as possible. The problem has applications in fields such as compressed sensing, digital fingerprinting, quantum state tomography, and multiple description coding.</br>
+
+Let $`\Phi=\left(\varphi_j\right)_{j=1}^n`$ be a set of unit norm vectors. The <i>coherence</i> $`\mu`$ of $`\Phi`$ is defined to be\
+$$\mu\left(\Phi\right) = \max_{1\leq  j < k\leq n} \vert\langle \varphi_j, \varphi_k \rangle\vert.$$<br>
+
+We call $`\Phi`$ a <i>Grassmannian frame</i> or <i>(optimal) projective packing</i> if\
+$$\Phi \in \text{argmin}\lbrace \mu(\Psi) \text{ } : \text{ }  \Psi \text{ } n \text{ unit norm vectors in }C^d \rbrace.$$<br>
+
+For a review of results about complex Grassmannian frames, see the paper <a href="#JKM19">[JKM19]</a>.<br></p>
+
+<h3>Submissions</h3>
+<p>If you have a collection of $n$ vectors in $C^d$ which has a better coherence (to at least the eighth decimal point) than what is listed above, we welcome you to submit it.  We will accept sporadic packings for $d$ and $n$ not listed above if there is evidence that the packing is truly optimal. <br>
+Submissions must be in the following format. A .txt file consisting of a newline-separated list of the $2 d n$ entries of the (unit-norm) vectors, starting with the real parts of the components of the first vector, then the real parts of the components of the second vector, and so on before working through the imaginary parts of each vector.<br>
+The filenames must be of the form `dxn_init.txt`, where `d` is the dimension, `n` is the number of vectors and `init` is a three- or four-character (i.e., only alphabet characters) string to list in the Creator column.<br>
+Please make a branch of the repository and put the new packings in the Packings directory.  Then do a pull request.  If you would like to send additional information, write to our Gmail account asongofvectorsandangles.</p>
+
+<h3>Open Problems</h3>
+<p>
+<ul>
+<li><b>Conjecture</b>: The frames of $8$ vectors in $C^3$ that result from removing a single vector from any of the known equiangular tight frames of $9$ vectors in $C^3$ are Grassmannian frames.</br><b>Sources</b>: <a href="#JKM19">[JKM19]</a><br>(independently conjectured by Henry Cohn)</li>
+<li><b>Conjecture</b>: Assume that an equiangular tight frame of $d^2$ vectors in $C^d$ exists. Then removing one vector from that equiangular tight frame results in a Grassmannian frame of $d^2-1$ vectors in $C^d$.</br><b>Source</b>: Conjectured by Henry Cohn.</li>
+<li><b>Conjecture</b>: Assume that a projective $2$-design of $n$ vectors in $C^d$ exists. Then removing one vector from that projective $2$-design results in a Grassmannian frame of $n-1$ vectors in $C^d$.</br><b>Source</b>: Extension of the above conjecture by Emily J. King.</li>
+<li><b>Conjecture</b>: The following is a Grassmannian frame of $5$ vectors in $C^3$:
+  
+  $$\left(\matrix{ a & b & b & c & c \cr b & a & b & c w & cw^2 \cr b & b & a & cw^2 & cw}\right),$$
+<br>
+$$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-a^2}{2}}, \quad c = \frac{1}{\sqrt{3}},\quad w=e^{2\pi i/3}.$$
+<b>Source</b>: <a id="JKM19">[JKM19]</a></li>
+<li><b>Conjecture</b>: The configuration of $85$ vectors in $C^5$ listed numerically in the leader board and explicitly constructed as the union of the root vectors corresponding to the $45$ $2$-reflections which generate the unitary reflection group $W(K_5)$ and $40$ vectors representing each antipodal pair of minimal vectors of the Coxeter-Todd lattice $O_{10}$ is a Grassmannian frame.</br><b>Source</b>: <a href="#BGM+19">[BGM+19]</a></li>
+<li><b>Open Problem</b>: Generalize the Levenstein and Bukh-Cox bounds to general subspace packings.</br><b>Source</b>: <a href="#JKM19">[JKM19]</a></li>
+</ul>
+</p>
+
+<h3>Leader Board</h3>
+      <p>Packings for all $2 \leq d \leq 7$ and $d+2 \leq n \leq 49$, plus sporadic packings.</p>
+
+<h4>Legend and Further Notes</h4>
+      <p>
+        <ul>
+          <li> The Grassmannian frames for $d = n$ are orthonormal bases and for $d+1 = n$ are regular simplices, hence we do not list them.</li>
+          <li> <b>Best Coherence</b> gives the best coherence of the packings which have been submitted for that $d$ and $n$. A new packing is considered better if it beats the previous packing in at least the eighth decimal place.</li>
+          <li> <b>Lower Bound</b> gives the maximum of whichever of the Bukh-Cox, Welch-Rankin, orthoplex, and/or Levenstein bounds are valid and largest for that $d$ and $n$.</li>
+          <li> <b>Creator</b> gives a 3&ndash;4 character string indicating the creator of the packing.
+            <ul>
+              <li> etf: A known equiangular tight frame.  See, e.g., <a href="#FM16">[FM16]</a> and the references therein.</li>
+              <li> orth: The maximal known set of vectors in $`C^d`$ which saturate the orthoplex bound.  When $`d`$ is a prime power, this collection is a maximal set of mutually unbiased bases consisting of $`d^2 + d`$ vectors.  See, e.g., <a href="#KlRo04">[KlRo04]</a> and the reference therein.</li>
+              <li> Lev: A set of vectors which saturate the (second) Levenstein bound.</li>
+              <li> B-C: A set of vectors which saturate the Bukh-Cox bound.</li>
+              <li> AUTO: Removing a vector from the best known packing for $d$ and $n+1$ results in a better coherence than any of the submitted packings for $d$ and $n$.</li>
+              <li> njas: Grassmannian frames in $C^2$ are equivalent to optimal spherical codes in $S^2$.  The configurations labeled with njas are best known spherical codes in $S^2$ downloaded from <a href="#Sloane1">[Sloane1]</a>.</li>
+              <li> dgm, ejk, and JJ: Dustin G. Mixon, Emily J. King, and John Jasper.</li>
+              <li> hlc: Henry Cohn.</li>
+              <li> gKmR: Gene Kopp and Michael Ren.</li>
+              <li> BGM+22: From the paper <a href="#BGM+22">[BGM+22]</a>.</li>
+              <li> CID+21: From the paper <a href="#CID+21">[CID+21]</a>. (Has since been knocked off the leader board.)</li>
+            </ul>
+          </li>
+          <li> <b>Text File</b> contains a link to a .txt file with the best submitted packing formated as a newline-separated list of the $2 d n$ entries of the vectors, starting with the real parts of the first vector, then the real parts of the second vector, and so on until the imaginary parts of the last vector.</li>
+          <li> <b>Notes</b> contain the following information:
+            <ul>
+              <li> &#9675; indicates that the configuration is provably optimal.</li>
+              <li> &#9651; indicates that the configuration is conjectured to be optimal.</li>
+              <li> When pertinent, a reference to a paper or website is listed.</li>
+            </ul>
+          </li>
+          <li>For a listing of numerically approximated and explicitly defined optimal packings when $n=d^2$, see, e.g., <a href="#FSDH">[FSDH]</a>, <a href="#Grassl">[Grassl]</a>, and <a href="#Flamm">[Flamm]</a>.</li>
+        </ul>
+</p>
+
 
 <div class="table-responsive my-table">
   <table class="table">
@@ -198,7 +269,7 @@ This project is licensed under the terms of the Creative Commons Attribution 4.0
 <tr><td>5</td><td>48</td><td>0.54098230</td><td>0.50578054</td><td>hlc</td><td><a href="Packings/5x48_hlc.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>49</td><td>0.54351100</td><td>0.50751922</td><td>hlc</td><td><a href="Packings/5x49_hlc.txt">File</a></td><td></td></tr>
 <tr><td>5</td><td>50</td><td>0.56191071</td><td>0.50917508</td><td>JJ</td><td><a href="Packings/5x50_JJ.txt">File</a></td><td></td></tr>
-<tr><td>5</td><td>85</td><td>0.57735027</td><td>0.54006172</td><td>BGMP</td><td><a href="Packings/5x85_BGMP.txt">File</a></td><td>[BGM+22]</td></tr>
+<tr><td>5</td><td>85</td><td>0.57735027</td><td>0.54006172</td><td>BGMP</td><td><a href="Packings/5x85_BGMP.txt">File</a></td><td>&#9633;[BGM+22]</td></tr>
 <tr><td>6</td><td>8</td><td>0.22400924</td><td>0.22400924</td><td>B-C</td><td><a href="Packings/6x8_B-C.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>6</td><td>9</td><td>0.25000000</td><td>0.25000000</td><td>etf</td><td><a href="Packings/6x9_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>6</td><td>10</td><td>0.27220315</td><td>0.27216553</td><td>hlc</td><td><a href="Packings/6x10_hlc.txt">File</a></td><td></td></tr>
@@ -305,3 +376,30 @@ This project is licensed under the terms of the Creative Commons Attribution 4.0
   </table>
 </div>
 <div><p>Last updated: 2025-05-30.</p></div>
+
+
+<h3>Code</h3>
+<p>See the readme file in the Matlab directory.  We also encourage submission of code in other languages.  Please create a branch and add a directory named `LanguageTools` where `Language` is the language the code is written in.
+<h3>Papers</h3>
+<h4>Review Paper</h4>
+<p>
+<id="JKM19">[JKM19]</id> John Jasper, Emily J. King, and Dustin G. Mixon: &ldquo;Game of Sloanes: Best known packings in complex projective space.&rdquo; <i>Wavelets and Sparsity XVIII</i>, <i>SPIE Proceedings</i> 11138, 416&ndash;425 <a href="http://arxiv.org/abs/1907.07848">[arXiv]</a></br>
+</p>
+<h4>Further Literature and Websites</h4>
+<p>
+<a name="BGM+22">[BGM+22]</a> Dmitriy Bilyk, Alexey Glazyrin, Ryan Matzke, Josiah Park, and Oleksandr Vlasiuk: &ldquo;Optimal measures for $p$-frame energies on spheres.&rdquo; <i>Rev. Mat. Iberoam.</i> 38(4), 1129&ndash;1160 (2022)</br>
+<a name="CID+21">[CID+21]</a> Diego Cuevas, Carlos Beltr&aacute;n, Ignacio Santamaria, V&iacute;t Tu&#269;ek, and Gunnar Peters: &ldquo;A Fast Algorithm for Designing Grassmannian Constellations.&rdquo; (2021) <a href="https://gtas.unican.es/files/pub/non_coherent_wsa21_full_paper.pdf">https://gtas.unican.es/files/pub/non_coherent_wsa21_full_paper.pdf</a>, <i>Conference: WSA 2021 - 25th International ITG Workshop on Smart Antennas</i></i></br>
+<a name="FM16">[FM16]</a> Matt Fickus and Dustin G. Mixon: &ldquo;Tables of the existence of equiangular tight frames.&rdquo; (2016) <a href="http://arxiv.org/abs/1504.00253">[arXiv]</a></br>
+<a name="Flamm">[Flamm]</a> Steve Flammia: &ldquo;Exact SIC fiducial vectors.&rdquo; <a href="http://www.physics.usyd.edu.au/~sflammia/SIC/">http://www.physics.usyd.edu.au/~sflammia/SIC/</a></br>
+<a name="FSDH">[FSDH]</a> Christopher Fuchs, Blake Stacey, John DeBrota, and Michael Hoang: &ldquo;QBism: Quantum Theory as a Hero's Handbook: SIC-POVM Solutions.&rdquo; <a href="http://www.physics.umb.edu/Research/QBism/solutions.html">http://www.physics.umb.edu/Research/QBism/solutions.html</a></br>
+<a name="Grassl">[Grassl]</a> Markus Grassl and Andrew J. Scott: &ldquo;SIC-POVMs&rdquo; <a href="http://sicpovm.markus-grassl.de/">http://sicpovm.markus-grassl.de/</a></br>
+<a name="KlRo04">[KlRo04]</a> Andreas Klappenecker and Martin R&ouml;tteler: &ldquo;Constructions of mutually unbiased bases.&rdquo; (2004) in <i>Finite fields and applications</i>, <i>Lecture Notes in Comput. Sci.</i> 2948, 137&ndash;144, Springer, Berlin. <a href="https://arxiv.org/abs/quant-ph/0309120">[arXiv]</a></br>
+<a name="MeDa14a">[MeDa14a]</a> Ahmed Medra and Timothy N. Davidson: &ldquo;Flexible codebook design for limited feedback systems via sequential smooth optimization on the Grassmannian manifold.&rdquo; <i>IEEE Trans. Signal Process.</i> 62(5), 1305&ndash;1318 (2014)</br>
+<a name="MeDa14b">[MeDa14b]</a> Ahmed Medra and Timothy N. Davidson: &ldquo;Flexible codebook design for limited feedback systems.&rdquo; <a href="http://www.ece.mcmaster.ca/~davidson/pubs/Flexible_codebook_design.html">http://www.ece.mcmaster.ca/~davidson/pubs/Flexible_codebook_design.html</a></br>
+<a name="Sloane1">[Sloane1]</a> Neil J. A. Sloane: &ldquo;Spherical codes.&rdquo; <a href="http://neilsloane.com/packings/">http://neilsloane.com/packings/</a></br>
+<a name="Sloane2">[Sloane2]</a> Neil J. A. Sloane: &ldquo;How to pack lines, planes, $3$-spaces, etc.&rdquo; <a href="http://neilsloane.com/grass/">http://neilsloane.com/grass/</a></br>
+<a name="TDHS05">[TDHS05]</a> Joel A. Tropp, Inderjit S. Dhillon, Robert W. Heath, Jr., and Thomas Strohmer: &ldquo;Designing structured tight frames via alternating projection.&rdquo; <i>IEEE Trans. Info. Theory</i> 51(1), 188&ndash;209 (2005)
+</p>
+
+
+
