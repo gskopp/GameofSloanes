@@ -137,7 +137,7 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 <tr><td>2</td><td>47</td><td>0.96413753</td><td>0.95744681</td><td>njas</td><td><a href="Packings/2x47_njas.txt">File</a></td><td></td></tr>
 <tr><td>2</td><td>48</td><td>0.96418159</td><td>0.95833333</td><td>njas</td><td><a href="Packings/2x48_njas.txt">File</a></td><td></td></tr>
 <tr><td>2</td><td>49</td><td>0.96609820</td><td>0.95918367</td><td>njas</td><td><a href="Packings/2x49_njas.txt">File</a></td><td></td></tr>
-<tr><td>3</td><td>5</td><td>0.43425855</td><td>0.41406779</td><td>dgm</td><td><a href="Packings/3x5_dgm.txt">File</a></td><td></td></tr>
+<tr><td>3</td><td>5</td><td>0.43425855</td><td>0.41406779</td><td>dgm</td><td><a href="Packings/3x5_dgm.txt">File</a></td><td>&#9651;</td></tr>
 <tr><td>3</td><td>6</td><td>0.44721360</td><td>0.44721360</td><td>etf</td><td><a href="Packings/3x6_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>3</td><td>7</td><td>0.47140452</td><td>0.47140452</td><td>etf</td><td><a href="Packings/3x7_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>3</td><td>8</td><td>0.50000000</td><td>0.48795004</td><td>AUTO</td><td><a href="Packings/3x8_AUTO.txt">File</a></td><td>&#9651;</td></tr>
