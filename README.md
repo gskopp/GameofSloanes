@@ -334,10 +334,10 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 <tr><td>7</td><td>26</td><td>0.33318270</td><td>0.32950179</td><td>hlc</td><td><a href="Packings/7x26_hlc.txt">File</a></td><td></td></tr>
 <tr><td>7</td><td>27</td><td>0.33333333</td><td>0.33149677</td><td>AUTO</td><td><a href="Packings/7x27_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>7</td><td>28</td><td>0.33333333</td><td>0.33333333</td><td>etf</td><td><a href="Packings/7x28_etf.txt">File</a></td><td>&#9675;</td></tr>
-<tr><td>7</td><td>29</td><td>0.34090425</td><td>0.33502970</td><td>hlc</td><td><a href="Packings/7x29_hlc.txt">File</a></td><td></td></tr>
+<tr><td>7</td><td>29</td><td>0.34081228</td><td>0.33502970</td><td>hlc</td><td><a href="Packings/7x29_hlc.txt">File</a></td><td></td></tr>
 <tr><td>7</td><td>30</td><td>0.34639121</td><td>0.33660139</td><td>hlc</td><td><a href="Packings/7x30_hlc.txt">File</a></td><td></td></tr>
 <tr><td>7</td><td>31</td><td>0.34990310</td><td>0.33806170</td><td>hlc</td><td><a href="Packings/7x31_hlc.txt">File</a></td><td></td></tr>
-<tr><td>7</td><td>32</td><td>0.35260982</td><td>0.33942212</td><td>hlc</td><td><a href="Packings/7x32_hlc.txt">File</a></td><td></td></tr>
+<tr><td>7</td><td>32</td><td>0.35260718</td><td>0.33942212</td><td>hlc</td><td><a href="Packings/7x32_hlc.txt">File</a></td><td></td></tr>
 <tr><td>7</td><td>33</td><td>0.35355339</td><td>0.34069257</td><td>AUTO</td><td><a href="Packings/7x33_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>7</td><td>34</td><td>0.35355339</td><td>0.34188173</td><td>AUTO</td><td><a href="Packings/7x34_AUTO.txt">File</a></td><td></td></tr>
 <tr><td>7</td><td>35</td><td>0.35355339</td><td>0.34299717</td><td>AUTO</td><td><a href="Packings/7x35_AUTO.txt">File</a></td><td></td></tr>
@@ -377,7 +377,7 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
     </tbody>
   </table>
 </div>
-<div><p>Last updated: 2025-05-31.</p></div>
+<div><p>Last updated: 2025-06-04.</p></div>
 
 
 
