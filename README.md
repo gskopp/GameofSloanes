@@ -19,7 +19,7 @@ For a review of results about complex Grassmannian frames, see the paper [JKM19]
 <p>If you have a collection of $n$ vectors in $C^d$ which has a better coherence (to at least the eighth decimal point) than what is listed above, we welcome you to submit it.  We will accept sporadic packings for $d$ and $n$ not listed above if there is evidence that the packing is truly optimal. <br>
 Submissions must be in the following format. A .txt file consisting of a newline-separated list of the $2 d n$ entries of the (unit-norm) vectors, starting with the real parts of the components of the first vector, then the real parts of the components of the second vector, and so on before working through the imaginary parts of each vector.<br>
 The filenames must be of the form `dxn_init.txt`, where `d` is the dimension, `n` is the number of vectors and `init` is a three- or four-character (i.e., only alphabet characters) string to list in the Creator column.<br>
-Please make a branch of the repository and put the new packings in the Packings directory.  Then do a pull request.  If you would like to send additional information, write to our Gmail account asongofvectorsandangles.</p>
+Please make a branch of the repository and put the new packings in the SubmittedPackings directory.  Then do a pull request.  If you would like to send additional information, write to our Gmail account asongofvectorsandangles.</p>
 
 <h3>Open Problems</h3>
 <p>
@@ -54,7 +54,7 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
               <li> B-C: A set of vectors which saturate the Bukh-Cox bound.</li>
               <li> AUTO: Removing a vector from the best known packing for $d$ and $n+1$ results in a better coherence than any of the submitted packings for $d$ and $n$.</li>
               <li> njas: Grassmannian frames in $C^2$ are equivalent to optimal spherical codes in $S^2$.  The configurations labeled with njas are best known spherical codes in $S^2$ downloaded from <a href="#Sloane1">[Sloane1]</a>.</li>
-              <li> dgm, ejk, and JJ: Dustin G. Mixon, Emily J. King, and John Jasper.</li>
+              <li> dgm, ejk, and JJ: Dustin G. Mixon, Emily J. King, and John Jasper, respectively.</li>
               <li> hlc: Henry Cohn.</li>
               <li> gKmR: Gene Kopp and Michael Ren.</li>
               <li> bmem: Bastien Massion and Estelle Massart. </li>
@@ -373,15 +373,15 @@ $$a = \frac{\sqrt{13}+\sqrt{2+\sqrt{13}}-1}{3\sqrt{3}}, \quad b = \sqrt{\frac{1-
 <tr><td>12</td><td>16</td><td>0.14907120</td><td>0.14907120</td><td>etf</td><td><a href="CurrentBestPackings/12x16_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>12</td><td>23</td><td>0.20412415</td><td>0.20412415</td><td>etf</td><td><a href="CurrentBestPackings/12x23_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>12</td><td>45</td><td>0.25000000</td><td>0.25000000</td><td>etf</td><td><a href="CurrentBestPackings/12x45_etf.txt">File</a></td><td>&#9675;</td></tr>
-<tr><td>12</td><td>144</td><td>0.27735010</td><td>0.27735010</td><td>etf</td><td><a href="CurrentBestPackings/12x144_etf.txt">File</a></td><td></td></tr>
-<tr><td>13</td><td>169</td><td>0.26726124</td><td>0.26726124</td><td>etf</td><td><a href="CurrentBestPackings/13x169_etf.txt">File</a></td><td></td></tr>
-<tr><td>14</td><td>196</td><td>0.25819889</td><td>0.25819889</td><td>etf</td><td><a href="CurrentBestPackings/14x196_etf.txt">File</a></td><td></td></tr>
-<tr><td>15</td><td>225</td><td>0.25000000</td><td>0.25000000</td><td>etf</td><td><a href="CurrentBestPackings/15x225_etf.txt">File</a></td><td></td></tr>
+<tr><td>12</td><td>144</td><td>0.27735010</td><td>0.27735010</td><td>etf</td><td><a href="CurrentBestPackings/12x144_etf.txt">File</a></td><td>&#9675;</td></tr>
+<tr><td>13</td><td>169</td><td>0.26726124</td><td>0.26726124</td><td>etf</td><td><a href="CurrentBestPackings/13x169_etf.txt">File</a></td><td>&#9675;</td></tr>
+<tr><td>14</td><td>196</td><td>0.25819889</td><td>0.25819889</td><td>etf</td><td><a href="CurrentBestPackings/14x196_etf.txt">File</a></td><td>&#9675;</td></tr>
+<tr><td>15</td><td>225</td><td>0.25000000</td><td>0.25000000</td><td>etf</td><td><a href="CurrentBestPackings/15x225_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>16</td><td>21</td><td>0.12500000</td><td>0.12500000</td><td>etf</td><td><a href="CurrentBestPackings/16x21_etf.txt">File</a></td><td>&#9675;</td></tr>
 <tr><td>16</td><td>80</td><td>0.24253563</td><td>0.22501758</td><td>AUTO</td><td><a href="CurrentBestPackings/16x80_AUTO.txt">File</a></td><td></td></tr>
-<tr><td>16</td><td>256</td><td>0.24253563</td><td>0.24253563</td><td>etf</td><td><a href="CurrentBestPackings/16x256_etf.txt">File</a></td><td></td></tr>
-<tr><td>18</td><td>324</td><td>0.22941573</td><td>0.22941573</td><td>etf</td><td><a href="CurrentBestPackings/18x324_etf.txt">File</a></td><td></td></tr>
-<tr><td>19</td><td>361</td><td>0.22360680</td><td>0.22360680</td><td>etf</td><td><a href="CurrentBestPackings/19x361_etf.txt">File</a></td><td></td></tr>
+<tr><td>16</td><td>256</td><td>0.24253563</td><td>0.24253563</td><td>etf</td><td><a href="CurrentBestPackings/16x256_etf.txt">File</a></td><td>&#9675;</td></tr>
+<tr><td>18</td><td>324</td><td>0.22941573</td><td>0.22941573</td><td>etf</td><td><a href="CurrentBestPackings/18x324_etf.txt">File</a></td><td>&#9675;</td></tr>
+<tr><td>19</td><td>361</td><td>0.22360680</td><td>0.22360680</td><td>etf</td><td><a href="CurrentBestPackings/19x361_etf.txt">File</a></td><td>&#9675;</td></tr>
     </tbody>
   </table>
 </div>
